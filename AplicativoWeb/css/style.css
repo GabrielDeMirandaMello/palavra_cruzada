@@ -3,8 +3,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#A4A4A4, #A4A4A4, #A4A4A4);
 }
-
+.enunciados {
+    font-weight: bolder;
+}
 .div_pai {
     width: 100vw;
     display: flex;
@@ -18,7 +21,7 @@ body {
 }
 
 .cruzadinha {
-    color: black;
+    color: white;
     display: flex;
     border-radius: 10px;
 }
@@ -26,7 +29,7 @@ body {
 .quadrado {
     width: 30px;
     height: 30px;
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +38,7 @@ body {
 .branco {
     width: 30px;
     height: 30px;
-    border: 1px solid white;
+    border: 1px solid rgba(0, 0, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +59,7 @@ body {
     height: 30px;
     border-radius: 20px;
     margin: 20px;
-    background-color: #ccc;
+    background-image: linear-gradient(#000, #D8D8D8, #000);
     animation: titulo 1s linear infinite;
 }
 
