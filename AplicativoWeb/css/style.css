@@ -71,8 +71,10 @@ input {
     height: 24px;
     outline: 0;
     background-color: rgba(204, 204, 204, 0);
-    font-size: larger;
-    
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    cursor: pointer;
 }
 
 li {
