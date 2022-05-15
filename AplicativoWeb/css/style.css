@@ -54,6 +54,9 @@ body {
     position: absolute;
     font-size: 10px;
 }
+.memoriademassa {
+    display: flex
+}
 .titulo span {
     display: flex;
     justify-content: center;

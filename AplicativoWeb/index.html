@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palavra Cruzada</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="./jsS/script.js"></script>
 </head>
+
 <body>
     <div class="div_pai">
         <div class="container">
@@ -27,20 +30,16 @@
                     <div class="branco"></div>
                     <div class="quadrado">
                         <span class="numero">1</span>
-                        <input type="text" maxlength="1">
+                        <input id="e_eprom" type="text" maxlength="1" />
                     </div>
                     <div class="quadrado">
-                        <input type="text" maxlength="1">
+                        <input id="p_eprom" type="text" maxlength="1" />
                     </div>
                     <div class="quadrado">
-                        <input type="text" maxlength="1">
+                        <input id="r_eprom" type="text" maxlength="1" />
                     </div>
                     <div class="quadrado">
-                        <input type="text" maxlength="1">
-                    </div>
-                    <div class="quadrado">
-                        <span class="numero">2</span>
-                        <input type="text" maxlength="1">
+                        <input id="o_eprom" type="text" maxlength="1" />
                     </div>
                 </div>
                 <div>
@@ -56,7 +55,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -83,7 +81,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -98,7 +95,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -113,7 +109,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -131,7 +126,6 @@
                     </div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -146,7 +140,6 @@
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -161,10 +154,6 @@
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
-                    <div class="quadrado">
-                        <span class="numero">6</span>
-                        <input type="text" maxlength="1">
-                    </div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -182,7 +171,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="quadrado">
@@ -200,12 +188,12 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
                     <div class="quadrado">
-                        <input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="branco"></div>
                     <div class="quadrado">
                         <span class="numero">9</span>
@@ -216,12 +204,12 @@
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado">
                         <span class="numero">10</span>
-                        <input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -236,7 +224,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="quadrado">
@@ -244,15 +231,16 @@
                         <input type="text" maxlength="1">
                     </div>
                     <div class="quadrado">
-                        <input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
-                    <div class="quadrado">  
+                    <div class="quadrado">
                         <span class="numero">12</span>
-                        <input type="text" maxlength="1"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
@@ -272,7 +260,6 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="quadrado"><input type="text" maxlength="1"></div>
                 </div>
                 <div>
                     <div class="branco"></div>
@@ -280,11 +267,11 @@
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado">
                         <span class="numero">13</span>
-                        <input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
-                    <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
@@ -296,10 +283,10 @@
                     <div class="branco"></div>
                     <div class="quadrado">
                         <span class="numero">14</span>
-                        <input type="text" maxlength="1"></div>
+                        <input type="text" maxlength="1">
+                    </div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
                     <div class="quadrado"><input type="text" maxlength="1"></div>
-                    <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
@@ -321,31 +308,66 @@
                     <div class="branco"></div>
                     <div class="branco"></div>
                     <div class="branco"></div>
-                    <div class="branco"></div>
                 </div>
+            </div>
+            <div class="memoriademassa">
+                <div class="quadrado">
+                    <span class="numero">2</span>
+                    <input id="m_eprom" onkeyup="verificar_eprom()" type="text" maxlength="1" />
+                </div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado">
+                    <span class="numero">6</span>
+                    <input type="text" maxlength="1">
+                </div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
+                <div class="quadrado"><input type="text" maxlength="1"></div>
             </div>
             <div class="enunciados">
                 <h2>Enunciados</h2>
                 <ol>
                     <li>Sigla do principal hardware do computador, também conhecido como processador.</li>
-                    <li>Sigla do circuito combinatório responsável pela execução de somas, subtrações e funções lógicas, em um sistema digital.</li>
-                    <li>Circuitos digitais capazes de armazenar e deslocar informações binárias, e são tipicamente usados como um dispositivo de armazenamento temporário. São utilizados na execução de programas de computadores, disponibilizando um local para armazenar dados.</li>
+                    <li>Sigla do circuito combinatório responsável pela execução de somas, subtrações e funções lógicas,
+                        em um sistema digital.</li>
+                    <li>Circuitos digitais capazes de armazenar e deslocar informações binárias, e são tipicamente
+                        usados como um dispositivo de armazenamento temporário. São utilizados na execução de programas
+                        de computadores, disponibilizando um local para armazenar dados.</li>
                     <li>Sigla dos dois tipos de memória do computador. <br>
                         Tipo de chip de memória de computador que mantém seus dados quando a energia é desligada. <br>
-                        Tipo de dispositivo de armazenamento não volátil, ou seja, mesmo se não tiver energia, manterá as informações que salvas nela. <br>
-                        Memória que tem como função armazenar grandes quantidades de informações. <br></li> 
-                    <li>Recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, sem sobrecarregarem o processador.</li>
-                    <li>Sigla de uma linha de controle em eletrônica digital usada para selecionar um (ou um conjunto) de circuitos integrados (comumente chamados de "chips") de vários conectados ao mesmo ônibus de computador, geralmente utilizando a lógica de três estados.</li>
+                        Tipo de dispositivo de armazenamento não volátil, ou seja, mesmo se não tiver energia, manterá
+                        as informações que salvas nela. <br>
+                        Memória que tem como função armazenar grandes quantidades de informações. <br></li>
+                    <li>Recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, sem
+                        sobrecarregarem o processador.</li>
+                    <li>Sigla de uma linha de controle em eletrônica digital usada para selecionar um (ou um conjunto)
+                        de circuitos integrados (comumente chamados de "chips") de vários conectados ao mesmo ônibus de
+                        computador, geralmente utilizando a lógica de três estados.</li>
                     <li>Tipo de ônibus de computador que é usado para especificar um endereço físico.<br>
-                        Dispositivo em que através do interior de um computador são transportados dados e informações importantes.</li>
-                    <li>Disponível em modelos de dois ou quatro núcleos, os CPUs da linha __ possuem até 8 MB de memória cache (nível L3) compartilhada, também utilizam o soquete LGA1156, controlador de memória DDR integrado, tecnologia Intel Hyper-Threading, tecnologia Turbo Boost e muito mais.<br>
-                        Todos os CPUs da série Core __ possuem quatro núcleos, memória cache L3 de 8 MB, controlador de memória integrado, tecnologia Intel Turbo Boost, tecnologia Intel Hyper-Threading, tecnologia Intel HD Boost e ainda o recurso Intel QPI.</li>
-                    <li>Nome dado a um processador que possui dois núcleos dentro de uma CPU. Nome dado a um processador que possui quatro núcleos dentro de uma CPU.</li>
+                        Dispositivo em que através do interior de um computador são transportados dados e informações
+                        importantes.</li>
+                    <li>Disponível em modelos de dois ou quatro núcleos, os CPUs da linha __ possuem até 8 MB de memória
+                        cache (nível L3) compartilhada, também utilizam o soquete LGA1156, controlador de memória DDR
+                        integrado, tecnologia Intel Hyper-Threading, tecnologia Turbo Boost e muito mais.<br>
+                        Todos os CPUs da série Core __ possuem quatro núcleos, memória cache L3 de 8 MB, controlador de
+                        memória integrado, tecnologia Intel Turbo Boost, tecnologia Intel Hyper-Threading, tecnologia
+                        Intel HD Boost e ainda o recurso Intel QPI.</li>
+                    <li>Nome dado a um processador que possui dois núcleos dentro de uma CPU. Nome dado a um processador
+                        que possui quatro núcleos dentro de uma CPU.</li>
                 </ol>
             </div>
         </div>
     </div>
 </body>
+
 </html>
 <script>
 
