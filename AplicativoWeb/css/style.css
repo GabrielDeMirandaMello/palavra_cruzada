@@ -1,0 +1,97 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_pai {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cruzadinha {
+    color: black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.quadrado {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branco {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #ccc;
+    animation: titulo 1s linear infinite;
+}
+
+
+input {
+    width: 22px;
+    height: 23px;
+    position: absolute;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+@keyframes titulo {
+    0% {
+        width: 50%;
+    }
+    25% {
+        width: 55%;
+    }
+
+    50% {
+        width: 60%;
+    }
+
+    75% {
+        width: 55%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
