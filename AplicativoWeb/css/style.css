@@ -31,9 +31,8 @@ body {
     height: 30px;
     border: 1px solid black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .branco {
@@ -51,7 +50,10 @@ body {
     justify-content: center;
 
 }
-
+.numero {
+    position: absolute;
+    font-size: 10px;
+}
 .titulo span {
     display: flex;
     justify-content: center;
